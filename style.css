@@ -1,0 +1,180 @@
+* {
+	background-color: #F0FFFF;
+}
+
+/* menu */
+
+.menu {
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 15px;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+li {
+	float: left;
+	padding: 3px 15px;
+}
+
+li > a:link, a:visited {
+	display: block;
+	text-align: center;
+	background-color: #006400;
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 20px 15px; 
+	
+	color: white;
+	text-transform: uppercase;
+	font-family: Trebuchet MS, sans-serif;
+	font-style: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+li > a:hover, a:active {
+	background-color: #EEE8AA;
+	color: 	#006400;
+}
+
+/* corpo */
+
+h1 {
+	text-align: center;
+	background-color: #EEE8AA;
+	padding: 10px;
+	margin: 30px 20px;
+	border-radius: 30px;
+	font-family: OCR A Std, monospace;
+	font-size: 2em;
+}
+
+h2 {
+	background-color: #006400;
+	color: white;
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.sobre_mim {
+	width: 100%;
+	display: flex;
+	justify-content: center; /*horizontal*/
+}
+
+.texto {
+	margin: 0 30px;
+	padding: 0;
+	
+	display: flex;
+	flex-direction: column; /*troca o justify-content e o align-items */
+	justify-content: center; /*horizontal para vertical*/
+	align-items: start; /*vertical para horizontal*/
+	
+	background-color: #EEE8AA;
+	border: 3px #006400 solid; 
+	border-radius: 30px;
+}
+
+.imagem {
+	padding: 0;
+	display: flex;
+	justify-content: center; /*horizontal*/
+	align-items: center; /*vertical*/
+}
+
+.img1 {
+	margin: 0 30px;
+	width: 230px;
+	border: 3px #006400 solid;
+	border-radius: 30px;
+}
+
+.img2 {
+	margin: 20px;
+	width: 350px;
+	border: 3px #006400 solid;
+	border-radius: 30px;
+}
+
+.artigo {
+	display: block;
+	margin: 10px 50px;
+	padding: 5px;
+	background-color: #EEE8AA;
+	border: 3px #006400 solid; 
+
+}
+
+.family {
+	margin: 30px;
+}
+
+.foco > span {
+	background-color: #90EE90;
+	color: black;
+	margin: 10px;
+	font-family: URW Chancery L, cursive;
+	font-size: 1em;
+	font-style: italic;
+}
+
+.foco {
+	background-color: #90EE90;
+	border-radius: 30px;
+	text-align: center;
+	padding: 20px;
+	margin: 3px 50px;
+}
+
+p {
+	background-color: #EEE8AA;
+	margin: 3px 6px;
+	padding: 3px 10px;
+	font-size: 1em;
+	font-family: URW Chancery L, cursive;
+	font-weight: normal;
+	text-align: justify;
+}
+
+p > strong {
+	background-color: #EEE8AA;
+	font-weight: bold;
+}
+
+p > em {
+	background-color: #EEE8AA;
+}
+
+p > a {
+	background-color: #EEE8AA;
+	color: #363636;
+	font-style: italic;
+}
+
+
+/* rodape */
+
+footer {
+	margin: 30px;
+	text-align: right;
+}
+
+footer > span {
+	font-size: 1em;
+	font-family: Trebuchet MS, sans-serif;
+	font-style: italic;
+	color: #006400;
+}
